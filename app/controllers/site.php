@@ -14,7 +14,7 @@ class site
 
         Database::include_methods(__FILE__,$this);
 
-        Application::create_src_script("middlewares","autenticar2","<?php echo 'vapo';");
+        //Application::create_src_script("middlewares","autenticar2","<?php echo 'vapo';");
     }
 
 
